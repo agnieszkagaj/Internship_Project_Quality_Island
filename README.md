@@ -33,12 +33,17 @@ The modules are a part of an e-commerce web application that enables end-users t
 
 The tests I developed include:
 
-1. *Automated reggresion tests verifying:*
+### 1. Automated reggresion tests verifying:
 * Page titles
 * URLs
 * Visibility, clickablility and default settings of UI elements
+* Relevant files:
+    * [Sales Pages](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/tree/master/src/test/java/pages/sprzedaz) -> excluding KodyZnizkoweDodajNowyPage
+    * [Sales Tests](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/tree/master/src/test/java/tests/sprzedazTests)
+    * [Tools Pages](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/tree/master/src/test/java/pages/narzedzia)
+    * [Tools Tests](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/tree/master/src/test/java/tests/narzedziaTests)
 
-2. *End-to-end (E2E) automated test based on client requirements. Test scenario: adding new user ("Users" > "Create urser" modules):*
+### 2. End-to-end (E2E) automated test based on client requirements. Test scenario: adding new user ("Users" > "Create urser" modules):
 
 * Filling in the user name field - requirements: at lest 12 characters and one upper-case letter
 * Filling in e-mali adddress field
@@ -48,6 +53,10 @@ The tests I developed include:
 * Verifying that "Send notification to the user" checkbox is chcecked by default
 * Clicking "Create user" button
 * Verifying that the user has been successfully created by checking if the user appears in the user list - I implemented an iteration method for searching user data in the table that works independently of the current data sorting order
+* Relevant files:
+    * [Users Page](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/blob/master/src/test/java/pages/uzytkownicy/UzytkownicyPage.java)
+    * [Create User Page](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/blob/master/src/test/java/pages/uzytkownicy/UtworzUzytkownikaPage.java)
+    * [Users Tests](https://github.com/agnieszkagaj/Internship_Project_Quality_Island/blob/master/src/test/java/tests/uzytkownicyTests/UzytkownicyPageTest.java) -> see: @Test (priority = 20) public void weryfikacjaUtworzeniaNowegoUzytkownika()
 
 # ! Important Notice !
 The purpose of the repository is to showcase my individual contributions to the client's project during my internship at Quality Island.
