@@ -18,14 +18,14 @@ Each team member was responsible for a specific scope of test cases — relevant
 
 # Features
 
-* *Page Object Model (POM)* - ensures clear, reliable, modular and maintainable architecture
-* *Page Factory* - simplifies the implementation of POM design pattern, reduces boilerplate code for element initialization, improves the structure and maintainability of test code, enhances readability and scalability by separating page logic from test logic
-* *Resources file* - centralizes global configuration data (e.g. base URL, logins, passwords, e-mail addresses, browsers), enabling easier management and improved reusability
-* *ExtentReport class* - a centralized utility for generating reports form each test execution
-* *Waits class* - a global utility class containing custom wait operations, improves code reusability, keeps page classes clean by abstracting wait logic into seperate Waits class, enhances test stability for the web application which involves asychronous behaviour (e.g. waiting for a certain attribute to change)
-* *TestBase class* - a centralised base class for test setup and teardown, eliminates code duplication across test classes, improves code reusability, ensures consistent test environment and easier maintenance 
-* *Stuctured and consistent layout* - each class is divided into clear sections (i.e. configuration settings, web elements repository, operations on web elements)
-* *Test annotations* - improve code readability by providing clear descriptions for each test method
+* ***Page Object Model (POM)*** - ensures clear, reliable, modular and maintainable architecture
+* ***Page Factory*** - simplifies the implementation of POM design pattern, reduces boilerplate code for element initialization, improves the structure and maintainability of test code, enhances readability and scalability by separating page logic from test logic
+* ***Resources file*** - centralizes global configuration data (e.g. base URL, logins, passwords, e-mail addresses, browsers), enabling easier management and improved reusability
+* ***ExtentReport class*** - a centralized utility for generating reports form each test execution
+* ***Waits class*** - a global utility class containing custom wait operations, improves code reusability, keeps page classes clean by abstracting wait logic into seperate Waits class, enhances test stability for the web application which involves asychronous behaviour (e.g. waiting for a certain attribute to change)
+* ***TestBase class*** - a centralised base class for test setup and teardown, eliminates code duplication across test classes, improves code reusability, ensures consistent test environment and easier maintenance 
+* ***Stuctured and consistent layout*** - each class is divided into clear sections (i.e. configuration settings, web elements repository, operations on web elements)
+* ***Test annotations*** - improve code readability by providing clear descriptions for each test method
 
 # My Contribution
 The sope of my work involved "Sales" and "Tools" modules (originally: "Sprzedaż" and "Narzędzia").
